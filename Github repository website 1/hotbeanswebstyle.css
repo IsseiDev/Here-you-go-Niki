@@ -1,0 +1,187 @@
+﻿body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/back.jpg); 
+    background-size: auto;
+}
+/**************Navigation bar style**************/
+nav{
+    background: black;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 15px;
+}
+label.logo > a{
+    color: white;
+    font-weight: bold;
+    padding: 25px; 
+    line-height: 75px;
+    text-decoration: none;
+}
+label.logo > a:hover{
+    color: grey;
+}
+nav ul > li{
+   display: inline-block;
+   line-height: 75px;
+   margin: 0px 10px;
+}
+nav ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 2px;
+    border-radius: 12px;
+    padding: 5px 6px;
+    background-color: white;
+    font-size: small;
+}
+nav ul > li > a:hover{
+    background-color: grey;
+}
+p{
+    font-family: inherit;
+}
+/*************index page style**************/
+
+#content-img{
+    width: 50%;
+    float: left; 
+    margin-top: 6%;    
+  }
+  #content-text {
+    width: 42%;
+    margin: 1%;
+    margin-top: 10%;
+    padding: 3%;
+    float: right;
+    line-height: 50px;
+  }
+  #bottom{
+    clear: both;
+    margin: auto;
+    margin-top: 50px;
+    float: right;
+  }
+  #bottom::before{
+    content: '';
+    display: block;
+    height: 0.00001px;
+  }
+/*************meet the team page style**************/  
+.meettheteam-h1::before{
+    content: '';
+    display: block;
+    height: 60px;
+}
+.content{
+    width: 92%;
+    margin: 1% auto;
+    padding: 0;
+}      
+#team{
+    position: center; 
+    margin: auto;
+    padding: 5px;
+    width: 75%;
+}
+.management img{
+    display: inline-block;
+    border: 1px solid black;
+}
+.management-pstyle{
+    display: inline-block;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+.management-style{
+    display: inline-block;
+    margin: 10px;
+    border: solid 2px white;
+    padding: 2px;
+    padding-bottom: 12px;
+    background-color:lightgrey;
+}
+.seniors img{
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+.senior-style{
+    display: inline-block;
+    margin: 10px 3% 5px;
+    border: solid 2px white;
+    padding: 2px;
+    padding-bottom: 12px;
+    background-color: lightgrey;
+    width: 175px;
+    overflow-wrap: break-word;
+}
+.senior-style p{
+    font-family: inherit;
+    color: black;
+    font-weight: 600;
+}
+/**************do you have what it takes page style**************/
+.doyouhavewhatittakes-h1{
+    margin: 2% auto;
+    text-align: center;
+}
+.doyouhavewhatittakes-h1::before{
+    content: '';
+    display: block;
+    height: 60px;
+}
+section, aside{
+    float: left;
+    width: 44%;
+    margin: 1%;
+    padding: 1%;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+.container h2{
+    text-align: center;
+}
+.apply-here{
+    width: 46%;
+    margin: 1% auto;
+    padding: 1%;
+    clear: both;
+    text-align: center;
+}
+.apply-here::before{
+    content: " ";
+    display: block;
+    height: 20px;
+}
+/**************about us page style**************/
+/**************contact us page style************/
+.contactus-h1::before{
+    content: '';
+    display: block;
+    height: 60px;
+}
+.contactus-h1{
+    margin: 2% auto;
+    text-align: center;
+}
+.contactus-h2{
+    margin: 2% auto;
+    text-align: center;
+}
+form{
+    margin: 5% 25%;
+}
+.contactus-h3{
+    text-align: center;
+    font-size: 30px;
+}
